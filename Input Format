@@ -1,0 +1,12 @@
+a,b,c,d        # States
+0,1            # Alphabet
+a              # Start state
+c,d            # Accept states
+a 0 b          # Transitions
+a 1 c
+b 0 a
+b 1 d
+c 0 c
+c 1 c
+d 0 d
+d 1 d
